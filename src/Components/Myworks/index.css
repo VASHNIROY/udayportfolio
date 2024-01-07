@@ -1,0 +1,64 @@
+.works-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: hwb(0 0% 100%);
+  color: white;
+  font-family: Chakra Petch;
+  font-weight: 700;
+  padding: 100px;
+}
+
+.work-card-main-container {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+padding: 5%;
+  border-radius: 3%;
+}
+
+.work-card-content-container{
+    font-size: 30px;
+}
+
+.work-card-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.work-card-number {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px white;
+}
+
+.work-card-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card-image {
+  width: 500px;
+  height: 500px;
+}
+
+.work-card-view-btn{
+    height: 36px;
+    width: 80px;
+    margin-top: 5%;
+}

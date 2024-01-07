@@ -1,0 +1,21 @@
+.header-main-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 4px 10px 2px #FFFFFF40;
+  border-bottom: 1px solid #FFFFFF63;
+  background-color: #000000;
+  color: white;
+  position: fixed;
+  z-index: 999;
+
+}
+
+.header-un-ordered-container{
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-around;
+    margin-right: 5%;
+}
