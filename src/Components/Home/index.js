@@ -1,3 +1,4 @@
+import Carousel from "../Carousel";
 import Myworks from "../Myworks";
 import "./index.css";
 
@@ -11,12 +12,14 @@ const Home = () => {
           Passionate UI/UX Designer and Front-End Developer
         </h2>
         <h2>
-          <span style={{color: "#00FFA3"}}>I Can Design</span>
+          <span style={{ color: "#00FFA3" }}>I Can Design</span>
           {"              "}
-          <span style={{color: "#FFF500"}}>Mobile Appication</span>
+          <span style={{ color: "#FFF500" }}>Mobile Appication</span>
         </h2>
       </div>
       <Myworks />
+      <hr className="horizontal-line" />
+      <Carousel />
     </div>
   );
 };

@@ -1,0 +1,15 @@
+.carousel-inner-container {
+  display: flex !important;
+  max-width: 100% !important;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.carousel-img-contianer {
+  margin: 1% !important;
+}
+
+.carousel-images {
+  height: 200px;
+  width: 200px;
+}
