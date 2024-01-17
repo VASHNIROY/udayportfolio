@@ -1,6 +1,9 @@
 import Carousel from "../Carousel";
 import FollowedStrategy from "../FollowedStrategy";
+import Footer from "../Footer";
+import Mycapabilities from "../Mycapabilities";
 import Myworks from "../Myworks";
+import SatisfiedClients from "../SatisfiedClients";
 import "./index.css";
 
 const Home = () => {
@@ -23,6 +26,9 @@ const Home = () => {
       <Carousel />
       <hr className="horizontal-line" />
       <FollowedStrategy />
+      <Mycapabilities />
+      <SatisfiedClients />
+      <Footer />
     </div>
   );
 };

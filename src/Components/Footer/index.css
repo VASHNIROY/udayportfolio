@@ -1,0 +1,27 @@
+.footer-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-ping-me-btn-main-container {
+  display: flex;
+  border: 1px solid white;
+  width: 85%;
+  justify-content: space-around;
+  padding: 3%;
+  border-radius: 8px;
+}
+
+.footer-ping-me-btn-main-container-heading {
+  color: rgba(255, 245, 0, 1);
+}
+
+.pingme-btn-container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}

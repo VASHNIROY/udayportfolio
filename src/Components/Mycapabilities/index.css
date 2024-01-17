@@ -1,20 +1,19 @@
-.followed-strategy-main-container {
+.my-capabilities-main-container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.followed-strategy-mini-container {
+.my-capabilities-mini-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 255, 209, 0.12);
   width: 95%;
   border-radius: 8px;
 }
 
-.followed-strategy-cards-container {
+.my-capabilities-cards-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,28 +21,31 @@
   margin-bottom: 7%;
 }
 
-.followed-strategy-card-container {
+.my-capabilities-card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2%;
   position: relative;
+  border-radius: 10px;
   margin: 1%;
   border: 1px solid white;
-  max-width: 200px;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 200px;
 }
 
-.followed-strategy-card-heading {
+.my-capabilities-card-heading {
   font-weight: bold;
   color: rgba(0, 255, 179, 1);
 }
 
-.followed-strategy-card-para {
-  font-size: 10px;
+.my-capabilities-card-para {
+  font-size: 20px;
 }
 
-.followed-strategy-card-count-container {
+.my-capabilities-card-count-container {
   background-color: rgba(0, 255, 179, 1);
   display: flex;
   justify-content: center;
@@ -54,7 +56,13 @@
   font-size: 35px;
   color: black;
   top: -16px;
+  padding: 10px;
   left: -13px;
   width: 40px;
   align-items: center;
+}
+
+
+.my-capabilities-card-logo{
+
 }
