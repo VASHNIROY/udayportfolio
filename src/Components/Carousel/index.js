@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 import ReactSimplyCarousel from "react-simply-carousel";
 import "./index.css";
 
@@ -16,6 +18,7 @@ function Carousel() {
           //here you can also pass className, or any other button element attributes
           style: {
             alignSelf: "center",
+            display: "none",
             background: "black",
             border: "none",
             borderRadius: "50%",
@@ -38,6 +41,7 @@ function Carousel() {
             borderRadius: "50%",
             color: "white",
             cursor: "pointer",
+            display: "none",
             fontSize: "20px",
             height: 30,
             lineHeight: 1,
@@ -46,21 +50,17 @@ function Carousel() {
           },
           children: <span>{`<`}</span>,
         }}
+        swipeable={true}
+        autoPlay={true}
         responsiveProps={[
           {
-            itemsToShow: 5,
+            itemsToShow: 7,
             itemsToScroll: 2,
             minWidth: 1000,
           },
         ]}
-        speed={400}
+        speed={1000}
         easing="linear"
-        className="carousel-inner-container"
-        style={{
-          justifyContent: "space-between",
-          maxWidth: "100%",
-          width: "100%",
-        }}
       >
         {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
 

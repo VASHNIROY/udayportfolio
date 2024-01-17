@@ -1,4 +1,5 @@
 import Carousel from "../Carousel";
+import FollowedStrategy from "../FollowedStrategy";
 import Myworks from "../Myworks";
 import "./index.css";
 
@@ -20,6 +21,8 @@ const Home = () => {
       <Myworks />
       <hr className="horizontal-line" />
       <Carousel />
+      <hr className="horizontal-line" />
+      <FollowedStrategy />
     </div>
   );
 };

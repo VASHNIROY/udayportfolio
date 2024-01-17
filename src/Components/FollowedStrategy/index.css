@@ -1,0 +1,38 @@
+.followed-strategy-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.followed-strategy-mini-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.followed-strategy-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.followed-strategy-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  border: 2px solid white;
+  max-width: 150px;
+}
+
+.followed-strategy-card-heading {
+  font-weight: bold;
+}
+
+.followed-strategy-card-para {
+  font-size: 10px;
+}
