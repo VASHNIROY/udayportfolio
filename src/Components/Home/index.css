@@ -11,19 +11,23 @@
 }
 
 .home-mini-container {
-  width: 30%;
-  flex-direction: column;
-  padding: 8%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background: linear-gradient(
-    244deg,
-    rgba(103, 215, 209, 0.42) 19.48%,
-    rgba(38, 29, 34, 0) 37.86%
-  );
+     flex-direction: column;
+     align-self: flex-start;
+     padding-top: 0%;
+     font-size: 23px;
+     padding-left: 8%;
+     display: flex;
+     justify-content: center;
+     width: 685px;
+     margin-top: 0%;
+     padding-right: 0;
+     height: 532px;
+     border-radius: 50%;
+     background: linear-gradient( 244deg, rgba(103, 215, 209, 0.42) 0%, rgba(38, 29, 34, 0) 37.86% );
 }
 
-.horizontal-line{
+  
+
+.horizontal-line {
   width: 95%;
 }

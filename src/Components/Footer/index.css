@@ -9,8 +9,9 @@
 .footer-ping-me-btn-main-container {
   display: flex;
   border: 1px solid white;
-  width: 85%;
+  width: 80%;
   justify-content: space-around;
+  margin-top: 2%;
   padding: 3%;
   border-radius: 8px;
 }
@@ -22,6 +23,79 @@
 .pingme-btn-container {
   display: flex;
   background-color: white;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 15%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-tag-line-container {
+  padding-left: 25%;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-right: 25%;
+}
+
+.social-icons-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons-mini-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  border-radius: 8px;
+}
+
+.social-icons-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 7%;
+}
+
+.social-icons-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin: 1%;
+  border: 1px solid white;
+  min-width: 15%;
+  padding: 5px;
+}
+
+.social-icons-cards-mini-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.social-icons-cards-hr-main-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.social-icons-card-heading {
+  font-weight: bold;
+  color: rgba(0, 255, 179, 1);
+}
+
+.social-icons-card-para {
+  font-size: 10px;
+}
+
+.social-icons-card-name {
+  margin: 0;
+  font-size: 20px;
 }

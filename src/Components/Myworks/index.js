@@ -4,6 +4,17 @@ import Team2 from "../images/Team2.jpg";
 const Myworks = () => {
   return (
     <div className="works-main-container">
+      <div className="works-heading-container">
+        {" "}
+        <p className="works-heading">
+          My Works
+          <span style={{ display: "flex", padding: "0", margin: "0" }}>
+            <hr style={{ width: "50%", padding: "0",marginRight: "0",marginLeft: "0" }} />
+            <hr style={{ width: "1%",padding: "0",marginRight: "0",marginLeft: "5%"  }} />
+            <hr style={{ width: "1%",padding: "0",marginRight: "0",marginLeft: "5%"  }} />
+          </span>
+        </p>
+      </div>
       <div className="work-cards-container">
         <div className="work-card-main-container">
           <div className="work-card-number">1</div>
