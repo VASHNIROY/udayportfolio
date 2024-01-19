@@ -21,8 +21,7 @@
   justify-content: center;
   align-items: center;
   width: 93.27px;
-  height:59.5px;
-
+  height: 59.5px;
 }
 
 .works-heading {
@@ -81,6 +80,10 @@
 .work-card-view-btn {
   height: 36px;
   border-radius: 3px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
   background: #00f8aa;
   width: 100px;
   margin-top: 5%;
