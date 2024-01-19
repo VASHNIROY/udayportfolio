@@ -59,8 +59,8 @@
   align-items: center;
 }
 
-.followed-strategy-container {
-  width: 83.27px;
+.followed-strategy-heading-container {
+  width: 165.27px;
   height: 59.5px;
   background: linear-gradient(
     180deg,
@@ -75,6 +75,6 @@
   align-items: center;
 }
 
-.followed-strategy {
+.followed-strategy-heading {
   font-size: 20px;
 }

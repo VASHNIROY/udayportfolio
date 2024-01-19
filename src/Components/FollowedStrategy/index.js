@@ -4,9 +4,9 @@ const FollowedStrategy = () => {
   return (
     <div className="followed-strategy-main-container">
       <div className="followed-strategy-mini-container">
-        <div className="followed-strategy-container">
+        <div className="followed-strategy-heading-container">
           {" "}
-          <p className="followed-strategy">
+          <p className="followed-strategy-heading">
             Followed Strategy
             <span style={{ display: "flex", padding: "0", margin: "0" }}>
               <hr

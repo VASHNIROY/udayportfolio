@@ -7,7 +7,38 @@ const Mycapabilities = () => {
   return (
     <div className="my-capabilities-main-container">
       <div className="my-capabilities-mini-container">
-        <h1>My Capabilities</h1>
+        <div className="mycapabilities-heading-container">
+          {" "}
+          <p className="mycapabilities-heading">
+            My Capabilities
+            <span style={{ display: "flex", padding: "0", margin: "0" }}>
+              <hr
+                style={{
+                  width: "50%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "0",
+                }}
+              />
+              <hr
+                style={{
+                  width: "1%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "5%",
+                }}
+              />
+              <hr
+                style={{
+                  width: "1%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "5%",
+                }}
+              />
+            </span>
+          </p>
+        </div>
         <div className="my-capabilities-cards-container">
           <div className="my-capabilities-card-container">
             <div className="my-capabilities-card-count-container">

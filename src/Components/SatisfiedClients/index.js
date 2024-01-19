@@ -5,7 +5,38 @@ const SatisfiedClients = () => {
   return (
     <div className="satisfied-clients-main-container">
       <div className="satisfied-clients-mini-container">
-        <h1>Satisfied Clients</h1>
+        <div className="satisfied-clients-heading-container">
+          {" "}
+          <p className="satisfied-clients-heading">
+            Satisfied Clientss
+            <span style={{ display: "flex", padding: "0", margin: "0" }}>
+              <hr
+                style={{
+                  width: "50%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "0",
+                }}
+              />
+              <hr
+                style={{
+                  width: "1%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "5%",
+                }}
+              />
+              <hr
+                style={{
+                  width: "1%",
+                  padding: "0",
+                  marginRight: "0",
+                  marginLeft: "5%",
+                }}
+              />
+            </span>
+          </p>
+        </div>
         <div className="satisfied-clients-cards-container">
           <div className="satisfied-clients-cards-mini-container">
             <div className="satisfied-clients-cards-hr-main-container">
