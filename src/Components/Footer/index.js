@@ -14,7 +14,18 @@ const Footer = () => {
           Can I contribute to your project with my expertise ?
         </h2>
         <button className="pingme-btn-container">
-          Ping Me <img alt="pingme" src={pingme} />
+          <a
+            href="https://www.linkedin.com/in/tuppati-udaykiran/"
+            target="blank"
+            style={{
+              textDecoration: "none",
+              color: "black",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            Ping Me <img alt="pingme" src={pingme} />
+          </a>
         </button>
       </div>
       <div className="footer-tag-line-container">
