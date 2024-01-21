@@ -5,7 +5,7 @@ import ToolsLogo from "../images/fluent_window-dev-tools-20-filledtools.png";
 
 const Mycapabilities = () => {
   return (
-    <div className="my-capabilities-main-container">
+    <div className="my-capabilities-main-container" id="about">
       <div className="my-capabilities-mini-container">
         <div className="mycapabilities-heading-container">
           {" "}
@@ -42,7 +42,7 @@ const Mycapabilities = () => {
         <div className="my-capabilities-cards-container">
           <div className="my-capabilities-card-container">
             <div className="my-capabilities-card-count-container">
-              <img src={UXLogo} />
+              <img className="my-capabilities-card-logo" src={UXLogo} />
             </div>
             <h2 className="my-capabilities-card-heading">User Experience</h2>
             <ul className="my-capabilities-card-para">
@@ -69,7 +69,7 @@ const Mycapabilities = () => {
           </div>
           <div className="my-capabilities-card-container">
             <div className="my-capabilities-card-count-container">
-              <img src={ToolsLogo} />
+              <img src={ToolsLogo} className="my-capabilities-card-logo" />
             </div>
 
             <h2 className="my-capabilities-card-heading">Tools & Dev</h2>

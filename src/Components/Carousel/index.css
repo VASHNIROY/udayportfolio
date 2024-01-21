@@ -1,8 +1,16 @@
 .carousel-img-contianer {
-  margin: 1% !important;
+  margin: 57px !important;
 }
 
 .carousel-images {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 900px) {
+  .carousel-images {
+    height: 150px;
+    width: 150px;
+  }
 }

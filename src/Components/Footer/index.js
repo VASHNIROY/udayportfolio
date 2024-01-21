@@ -8,7 +8,7 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <div className="footer-main-container">
+    <div className="footer-main-container" id="contact">
       <div className="footer-ping-me-btn-main-container">
         <h2 className="footer-ping-me-btn-main-container-heading">
           Can I contribute to your project with my expertise ?
@@ -18,7 +18,7 @@ const Footer = () => {
         </button>
       </div>
       <div className="footer-tag-line-container">
-        <h3 style={{ lineHeight: "0" }}>
+        <h3>
           "If you require additional insights into my portfolio or wish to
           explore more of my
         </h3>{" "}
@@ -33,29 +33,83 @@ const Footer = () => {
           <div className="social-icons-cards-container">
             <div className="social-icons-cards-mini-container">
               <div className="social-icons-cards-hr-main-container">
-                <div className="social-icons-card-container">
-                  <img src={linkedin} alt="linkedin" />
-                  <p className="social-icons-card-name">Linkedin</p>
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/tuppati-udaykiran/"
+                  target="blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <div className="social-icons-card-container">
+                    <div className="social-icons-card-img-container">
+                      <img src={linkedin} alt="linkedin" />
+                    </div>
+                    <div className="social-icons-card-content-container">
+                      {" "}
+                      <p className="social-icons-card-name">Linkedin</p>
+                    </div>
+                  </div>
+                </a>
 
-                <div className="social-icons-card-container">
-                  <img src={behance} alt="behance" />
-                  <p className="social-icons-card-name">Behance</p>
-                </div>
+                <a
+                  href="https://www.behance.net/udaykiran91"
+                  target="blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <div className="social-icons-card-container">
+                    <div className="social-icons-card-img-container">
+                      <img src={behance} alt="behance" />
+                    </div>
+                    <div className="social-icons-card-content-container">
+                      <p className="social-icons-card-name">Behance</p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://www.instagram.com/t.uday.design/"
+                  target="blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <div className="social-icons-card-container">
+                    <div className="social-icons-card-img-container">
+                      <img src={instagram} alt="instagram" />
+                    </div>
+                    <div className="social-icons-card-content-container">
+                      <p className="social-icons-card-name">Instagram</p>
+                    </div>
+                  </div>
+                </a>
 
-                <div className="social-icons-card-container">
-                  <img src={instagram} alt="instagram" />
-                  <p className="social-icons-card-name">Instagram</p>
-                </div>
+                <a
+                  href="https://www.youtube.com/@UK_Everything"
+                  target="blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <div className="social-icons-card-container">
+                    <div className="social-icons-card-img-container">
+                      <img src={youtube} alt="youtube" />
+                    </div>
+                    <div className="social-icons-card-content-container">
+                      <p className="social-icons-card-name"> Youtube</p>
+                    </div>
+                  </div>
+                </a>
 
-                <div className="social-icons-card-container">
-                  <img src={youtube} alt="youtube" />
-                  <p className="social-icons-card-name"> Youtube</p>
-                </div>
-                <div className="social-icons-card-container">
-                  <img src={github} alt="github" />
-                  <p className="social-icons-card-name">Github</p>
-                </div>
+                <a
+                  href="https://github.com/t-uday-kiran"
+                  style={{ textDecoration: "none", color: "white" }}
+                  target="blank"
+                >
+                  <div className="social-icons-card-container">
+                    <div className="social-icons-card-img-container">
+                      {" "}
+                      <img src={github} alt="github" />
+                    </div>
+
+                    <div className="social-icons-card-content-container">
+                      {" "}
+                      <p className="social-icons-card-name">Github</p>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

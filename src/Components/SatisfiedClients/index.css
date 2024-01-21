@@ -19,6 +19,7 @@
   justify-content: space-around;
   align-items: center;
   width: 90%;
+  flex-direction: column;
   margin-bottom: 7%;
 }
 
@@ -31,7 +32,7 @@
   position: relative;
   margin: 1%;
   border: 1px solid white;
-  max-width: 200px;
+  width: 80%;
 }
 
 .satisfied-clients-cards-mini-container {
@@ -43,6 +44,9 @@
 
 .satisfied-clients-cards-hr-main-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
 }
@@ -57,14 +61,14 @@
 }
 
 .satisfied-clients-card-count-container {
-  border: 5px solid rgba(255, 245, 0, 1);
+  border: 3px solid rgba(255, 245, 0, 1);
   border-radius: 30%;
   font-size: 100px;
   padding: 2%;
   margin: 1%;
-  width: 100px;
-  font-size: 80px;
-  height: 100px;
+  width: 70px;
+  font-size: 40px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,7 +100,7 @@
 }
 
 .satisfied-clients-heading-container {
-  width: 165.27px;
+  width: 170.27px;
   height: 59.5px;
   background: linear-gradient(
     180deg,
@@ -113,4 +117,19 @@
 
 .satisfied-clients-heading {
   font-size: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .satisfied-clients-cards-hr-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+.satisfied-clients-cards-container {
+    flex-direction: row;
+}
 }

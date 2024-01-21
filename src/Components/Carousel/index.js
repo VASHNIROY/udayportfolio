@@ -50,17 +50,18 @@ function Carousel() {
           },
           children: <span>{`<`}</span>,
         }}
-        swipeable={true}
-        autoPlay={true}
+        // swipeable={true}
+        // autoPlay={true}
         responsiveProps={[
           {
-            itemsToShow: 7,
+            itemsToShow: 10,
             itemsToScroll: 2,
             minWidth: 1000,
           },
         ]}
-        speed={1000}
-        easing="linear"
+        // speed={1000}
+        // easing="linear"
+        // autoplay={true}
       >
         {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
 

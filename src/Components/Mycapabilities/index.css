@@ -18,7 +18,8 @@
   justify-content: space-around;
   align-items: center;
   width: 90%;
-  margin-bottom: 7%;
+  flex-wrap: wrap;
+  margin-bottom: 6%;
 }
 
 .my-capabilities-card-container {
@@ -29,11 +30,16 @@
   padding: 2%;
   position: relative;
   border-radius: 10px;
-  margin: 1%;
+  margin: 0% 0% 13% 0%;
   border: 1px solid white;
   min-width: 250px;
   max-width: 250px;
   min-height: 200px;
+}
+
+.my-capabilities-card-logo {
+  height: 30px;
+  width: 30px;
 }
 
 .my-capabilities-card-heading {
@@ -42,14 +48,15 @@
 }
 
 .my-capabilities-card-para {
-  font-size: 20px;
+  font-size: 14px;
+  padding: 0;
 }
 
 .my-capabilities-card-count-container {
   background-color: rgba(0, 255, 179, 1);
   display: flex;
   justify-content: center;
-  height: 40px;
+  height: 30px;
   border: 1px solid white;
   border-radius: 8px;
   position: absolute;
@@ -58,11 +65,8 @@
   top: -16px;
   padding: 10px;
   left: -13px;
-  width: 40px;
+  width: 30px;
   align-items: center;
-}
-
-.my-capabilities-card-logo {
 }
 
 .mycapabilities-heading-container {
@@ -83,4 +87,10 @@
 
 .mycapabilities-heading {
   font-size: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .my-capabilities-card-para {
+    font-size: 18px;
+  }
 }

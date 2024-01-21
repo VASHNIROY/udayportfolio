@@ -4,30 +4,64 @@
   align-items: center;
   width: 100%;
   background-color: hwb(0 0% 100%);
+  font-family: "Chakra Petch", sans-serif;
   color: white;
-  font-family: Chakra Petch;
   font-weight: 700;
   flex-direction: column;
 }
 
 .home-mini-container {
-     flex-direction: column;
-     align-self: flex-start;
-     padding-top: 0%;
-     font-size: 23px;
-     padding-left: 8%;
-     display: flex;
-     justify-content: center;
-     width: 685px;
-     margin-top: 0%;
-     padding-right: 0;
-     height: 532px;
-     border-radius: 50%;
-     background: linear-gradient( 244deg, rgba(103, 215, 209, 0.42) 0%, rgba(38, 29, 34, 0) 37.86% );
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 0%;
+  font-size: 23px;
+  padding-left: 8%;
+  display: flex;
+  justify-content: center;
+  /* width: 685px; */
+  margin-top: 0%;
+  padding-right: 0;
+  height: 532px;
+  border-radius: 50%;
+  background: linear-gradient(
+    244deg,
+    rgba(103, 215, 209, 0.42) 0%,
+    rgba(38, 29, 34, 0) 37.86%
+  );
 }
 
-  
+.home-hello-heading {
+  margin: 0;
+  font-size: 15px;
+}
 
 .horizontal-line {
   width: 95%;
+}
+
+.home-name-heading {
+  font-size: 15px;
+  margin: 0;
+}
+
+.home-passionate-heading {
+  font-size: 15px;
+  text-align: start;
+}
+
+@media screen and (min-width: 1000px) {
+  .home-mini-container {
+    width: 50%;
+    height: 632px;
+  }
+  .home-hello-heading {
+    font-size: 25px;
+  }
+  .home-name-heading {
+    font-size: 30px;
+  }
+
+  .home-passionate-heading {
+    font-size: 40px;
+  }
 }

@@ -3,21 +3,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: hwb(0 0% 100%);
+  color: white;
   width: 100%;
 }
 
 .footer-ping-me-btn-main-container {
   display: flex;
   border: 1px solid white;
-  width: 80%;
+  width: 87%;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 2%;
   padding: 3%;
   border-radius: 8px;
+  margin-top: 10%;
 }
 
 .footer-ping-me-btn-main-container-heading {
   color: rgba(255, 245, 0, 1);
+  font-size: 17px;
 }
 
 .pingme-btn-container {
@@ -25,22 +30,22 @@
   background-color: white;
   justify-content: space-around;
   align-items: center;
-  width: 15%;
+  width: 134px;
+  align-self: center;
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
 }
 
 .footer-tag-line-container {
-  padding-left: 25%;
   text-align: center;
   margin-top: 2%;
-  margin-bottom: 2%;
-  padding-right: 25%;
+  padding: 1%;
 }
 
 .social-icons-main-container {
   width: 100%;
+
   display: flex;
   justify-content: center;
 }
@@ -57,6 +62,7 @@
 .social-icons-cards-container {
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   width: 90%;
   margin-bottom: 7%;
@@ -69,7 +75,7 @@
   position: relative;
   margin: 1%;
   border: 1px solid white;
-  min-width: 15%;
+  min-width: 200px;
   padding: 5px;
 }
 
@@ -83,7 +89,8 @@
 .social-icons-cards-hr-main-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .social-icons-card-heading {
@@ -98,4 +105,24 @@
 .social-icons-card-name {
   margin: 0;
   font-size: 20px;
+}
+
+.social-icons-card-img-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons-card-content-container {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+  .footer-ping-me-btn-main-container-heading {
+    font-size: 30px;
+  }
 }
